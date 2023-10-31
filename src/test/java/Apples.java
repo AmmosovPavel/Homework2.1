@@ -1,11 +1,11 @@
 public class Apples {
     public static void main(String[] args) {
-        final int JABLOK_Y_BURATINO = 10;
-        final int KARABAS_VZYAL = 6;
+        final int buratinoHadApples = 10;
+        final int karabasTakes = 6;
+        final int buratinoRemained = buratinoHadApples - karabasTakes;
+        System.out.println("У Буратино было " + buratinoHadApples + " яблок");
 
-        final int OSTATOK_BURATINO = JABLOK_Y_BURATINO - KARABAS_VZYAL;
-        System.out.println("У Буратино было " + JABLOK_Y_BURATINO + " яблок" );
-        System.out.println("Карабас забрал " + KARABAS_VZYAL + " яблок");
-        System.out.println("У Буратино осталось " + OSTATOK_BURATINO + " яблока");
+        System.out.println("Карабас забрал " + karabasTakes + " яблок");
+        System.out.println("У Буратино осталось " + buratinoRemained + " яблока");
     }
 }
